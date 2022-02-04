@@ -6,6 +6,8 @@
 
 # problems
 
++ see also log in circleCI job.
+
 |#|problem|
 |---|---|
 |01|[ABC086_A](https://atcoder.jp/contests/abc086/tasks/abc086_a)|
