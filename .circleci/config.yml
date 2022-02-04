@@ -15,6 +15,10 @@ jobs:
           command: |
             choco install -y make
       - run:
-          name: "test all problems"
+          name: "run all problems"
           command: |
             make run-all
+      - run:
+          name: "test all problems"
+          command: |
+            make test-all
