@@ -1,17 +1,10 @@
 # Atcoder Beginner Selection(ABS) @ powershell
 
-+ see https://qiita.com/drken/items/fd4e5e3630d0f5859067
++ see https://qiita.com/drken/items/fd4e5e3630d0f5859067 for details.
 
 + (Note) Atcoder testcases are [here](https://www.dropbox.com/sh/nx3tnilzqz7df8a/AAAYlTq2tiEHl5hsESw6-yfLa?dl=0), but the ABS problem is so old that testcases are not prepared. So we create testcases by each problem by hand.
 
-# how to test
-
-```
-make run Q=abc086a
-# or test all problems:
-make run-all
-```
-
+# problems
 
 |#|problem|
 |---|---|
@@ -25,3 +18,11 @@ make run-all
 |08|[ABC085_C](https://atcoder.jp/contests/abc085/tasks/abc085_c)|
 |09|[ARC065_A](https://atcoder.jp/contests/abc049/tasks/arc065_a)|
 |10|[ARC089_A](https://atcoder.jp/contests/abc086/tasks/arc089_a)|
+
+# how to test
+
+```
+make run Q=abc086a
+# or test all problems:
+make run-all
+```
