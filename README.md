@@ -19,6 +19,12 @@
 |09|[ARC065_A](https://atcoder.jp/contests/abc049/tasks/arc065_a)|
 |10|[ARC089_A](https://atcoder.jp/contests/abc086/tasks/arc089_a)|
 
+# requirements
+
++ powershell >= 5.1
++ `make` command
+  + type `choco install make` in admin
+
 # how to test
 
 ```
