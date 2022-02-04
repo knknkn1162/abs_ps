@@ -16,7 +16,6 @@ ANS_Q_DIR=$(ANS_DIR)/$(Q)
 run-%: test/$(Q)/%.txt
 	cat $^ | $(SRC_DIR)/$(TEST_Q_PS)
 
-
 %: test/$(Q)/%.txt
 	cat $^ | $(SRC_DIR)/$(TEST_Q_PS) | compare -passthru (cat $(ANS_Q_DIR)/$@.txt) | %{if($$_ -ne $$null) {throw "error"}}
 
