@@ -2,7 +2,7 @@
 
 + see https://qiita.com/drken/items/fd4e5e3630d0f5859067 for details.
 
-+ (Note) Atcoder testcases are [here](https://www.dropbox.com/sh/nx3tnilzqz7df8a/AAAYlTq2tiEHl5hsESw6-yfLa?dl=0), but the ABS problem is so old that testcases are not prepared. So we create testcases by each problem by hand.
++ (Note) Atcoder testcases are [here](https://www.dropbox.com/sh/nx3tnilzqz7df8a/AAAYlTq2tiEHl5hsESw6-yfLa?dl=0), but each ABS problem is so old that testcases are not prepared. So we create testcases by each problem by hand.
 
 # problems
 
@@ -27,8 +27,8 @@
 
 # how to test
 
-```
-make run Q=abc086a
+```ps
+make run Q=abc086_a
 # or test all problems:
 make run-all
 ```
