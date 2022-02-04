@@ -11,10 +11,10 @@ jobs:
     steps:
         - checkout
         - run
-            name: install dependencies
+            name: "install dependencies"
             command: |
                 choco install -y make
         - run: 
-            name: test
+            name: "test all problems"
             command: |
                 make run-all
