@@ -27,4 +27,4 @@ run-all:
 	echo $(SRCS) | %{("{0}{1}" -f ("="*10), $$_); make run Q=$$_}
 
 test-all:
-	echo $(SRCS) | %{("{0}{1}" -f ("="*10), $$_); make test Q=$$_}
+	echo $(SRCS) | %{"{0}{1}" -f ("="*10), $$_; make test Q=$$_; if(!$$?) {throw "$$_ wrong"} }
